@@ -9,6 +9,8 @@ disrupting the standard BTD6 rounds and balance, with a focus on rounds 1-80.
 Best experienced on any Hard mode variant (except ABR or CHIMPS) - make it
 challenging! Because enabling this pack only slightly increases difficulty.
 
+![image](Legend.png)
+
 ## Non-Users Technical Description
 
 This is a set of data which can be loaded by the BloonFactoryMod program in
