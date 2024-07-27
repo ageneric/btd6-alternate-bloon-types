@@ -1,0 +1,83 @@
+{
+  "ModVersion": "1.1.0",
+  "Name": "GhostFortIJKX",
+  "Speed": 1.0,
+  "Health": 88,
+  "Damage": 0,
+  "R": 125,
+  "G": 140,
+  "B": 156,
+  "CashDropped": 0,
+  "GUID": "a5ebf71f-f3e2-42c0-9e8c-08f2fa27d48a",
+  "IsCamo": true,
+  "IsLead": false,
+  "IsPurple": false,
+  "IsBlack": false,
+  "IsWhite": true,
+  "IsFrozen": false,
+  "IsRegrow": false,
+  "RegrowRate": 3.0,
+  "BloonChildren": [],
+  "BloonRounds": [],
+  "BloonBehaviors": [
+    {
+      "$type": "BloonFactoryMod.API.Serializables.Behaviors.Triggers.TimeTriggerSerializable, BloonFactoryMod",
+      "Interval": 13.0,
+      "ActionIDs": [
+        "614b5773-24ef-4f08-bc1a-f3b4a0e9e27f"
+      ],
+      "Name": "Time Trigger",
+      "GUID": "0176f531-f5fa-4ba9-a8cb-cf3d6e6e76c1"
+    },
+    {
+      "$type": "BloonFactoryMod.API.Serializables.Behaviors.Actions.MoveActionSerializable, BloonFactoryMod",
+      "Time": 0.1,
+      "Distance": 4999,
+      "Name": "Move Action",
+      "GUID": "614b5773-24ef-4f08-bc1a-f3b4a0e9e27f"
+    },
+    {
+      "$type": "BloonFactoryMod.API.Serializables.Behaviors.Actions.DamageReductionSerializable, BloonFactoryMod",
+      "DamageReduction": 1,
+      "Name": "Damage Reduction",
+      "GUID": "5b485f3b-44fa-481a-a8c9-ac98a40ba96d"
+    },
+    {
+      "$type": "BloonFactoryMod.API.Serializables.Behaviors.Actions.SpawnBloonActionSerializable, BloonFactoryMod",
+      "BloonType": "LeadFortified",
+      "Amount": 1,
+      "DistanceAhead": 0,
+      "Time": 0.02,
+      "Name": "Spawn Bloon Action",
+      "GUID": "3b1f48cc-30e7-44e2-9326-384db2cf9c21"
+    },
+    {
+      "$type": "BloonFactoryMod.API.Serializables.Behaviors.Triggers.TimeTriggerSerializable, BloonFactoryMod",
+      "Interval": 10.0,
+      "ActionIDs": [
+        "3b1f48cc-30e7-44e2-9326-384db2cf9c21"
+      ],
+      "Name": "Time Trigger",
+      "GUID": "9b540efa-968c-4aa1-a9a3-fdafd3c0003f"
+    }
+  ],
+  "Decal1": {
+    "R": 255,
+    "G": 255,
+    "B": 255,
+    "Type": 0,
+    "OffsetX": 0,
+    "OffsetY": 0
+  },
+  "Decal2": {
+    "R": 255,
+    "G": 255,
+    "B": 255,
+    "Type": 0,
+    "OffsetX": 0,
+    "OffsetY": 0
+  },
+  "Size": 0.8,
+  "IsCustomDisplay": false,
+  "CustomDisplay": null
+}

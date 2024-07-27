@@ -1,0 +1,100 @@
+{
+  "ModVersion": "1.1.0",
+  "Name": "ElectricCamoIJKX",
+  "Speed": 70.0,
+  "Health": 1,
+  "Damage": 11,
+  "R": 240,
+  "G": 147,
+  "B": 121,
+  "CashDropped": 1,
+  "GUID": "46105fc1-ad5a-41e7-adbe-aeb7a5b68d37",
+  "IsCamo": true,
+  "IsLead": false,
+  "IsPurple": false,
+  "IsBlack": false,
+  "IsWhite": false,
+  "IsFrozen": false,
+  "IsRegrow": false,
+  "RegrowRate": 3.0,
+  "BloonChildren": [
+    {
+      "BloonName": "PinkCamo",
+      "Amount": 2
+    }
+  ],
+  "BloonRounds": [
+    {
+      "IsMultiRound": false,
+      "EndRound": 10,
+      "StartRound": 33,
+      "Spacing": 2.25,
+      "Amount": 7
+    },
+    {
+      "IsMultiRound": false,
+      "EndRound": 10,
+      "StartRound": 37,
+      "Spacing": 1.0,
+      "Amount": 20
+    },
+    {
+      "IsMultiRound": false,
+      "EndRound": 10,
+      "StartRound": 46,
+      "Spacing": 0.5,
+      "Amount": 6
+    },
+    {
+      "IsMultiRound": false,
+      "EndRound": 10,
+      "StartRound": 49,
+      "Spacing": 1.25,
+      "Amount": 4
+    },
+    {
+      "IsMultiRound": false,
+      "EndRound": 10,
+      "StartRound": 55,
+      "Spacing": 2.5,
+      "Amount": 12
+    }
+  ],
+  "BloonBehaviors": [
+    {
+      "$type": "BloonFactoryMod.API.Serializables.Behaviors.Actions.StunTowersActionSerializable, BloonFactoryMod",
+      "StunDuration": 4.0,
+      "Radius": 50.0,
+      "Name": "Stun Towers Action",
+      "GUID": "dd259d7f-b4ab-43ba-b3cb-cf22bcc600f0"
+    },
+    {
+      "$type": "BloonFactoryMod.API.Serializables.Behaviors.Triggers.HealthPercentTriggerSerializable, BloonFactoryMod",
+      "Percent": 50.0,
+      "ActionIDs": [
+        "dd259d7f-b4ab-43ba-b3cb-cf22bcc600f0"
+      ],
+      "Name": "Health Percent Trigger",
+      "GUID": "c823aa3a-82bf-4fe2-876d-391fa66fdde3"
+    }
+  ],
+  "Decal1": {
+    "R": 229,
+    "G": 191,
+    "B": 162,
+    "Type": 2,
+    "OffsetX": 0,
+    "OffsetY": 0
+  },
+  "Decal2": {
+    "R": 255,
+    "G": 255,
+    "B": 255,
+    "Type": 8,
+    "OffsetX": 0,
+    "OffsetY": 0
+  },
+  "Size": 0.7,
+  "IsCustomDisplay": false,
+  "CustomDisplay": null
+}

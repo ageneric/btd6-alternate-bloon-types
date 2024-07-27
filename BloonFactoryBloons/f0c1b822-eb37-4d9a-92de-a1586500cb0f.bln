@@ -1,0 +1,111 @@
+{
+  "ModVersion": "1.1.0",
+  "Name": "GlassIJKX",
+  "Speed": 65.0,
+  "Health": 70,
+  "Damage": 35,
+  "R": 57,
+  "G": 47,
+  "B": 99,
+  "CashDropped": 1,
+  "GUID": "f0c1b822-eb37-4d9a-92de-a1586500cb0f",
+  "IsCamo": false,
+  "IsLead": true,
+  "IsPurple": false,
+  "IsBlack": false,
+  "IsWhite": false,
+  "IsFrozen": false,
+  "IsRegrow": false,
+  "RegrowRate": 3.0,
+  "BloonChildren": [
+    {
+      "BloonName": "PurpleRegrow",
+      "Amount": 2
+    }
+  ],
+  "BloonRounds": [
+    {
+      "IsMultiRound": false,
+      "EndRound": 10,
+      "StartRound": 41,
+      "Spacing": 20.0,
+      "Amount": 1
+    },
+    {
+      "IsMultiRound": false,
+      "EndRound": 10,
+      "StartRound": 44,
+      "Spacing": 2.0,
+      "Amount": 10
+    },
+    {
+      "IsMultiRound": false,
+      "EndRound": 10,
+      "StartRound": 47,
+      "Spacing": 0.1,
+      "Amount": 24
+    },
+    {
+      "IsMultiRound": false,
+      "EndRound": 10,
+      "StartRound": 53,
+      "Spacing": 0.44,
+      "Amount": 80
+    },
+    {
+      "IsMultiRound": false,
+      "EndRound": 10,
+      "StartRound": 67,
+      "Spacing": 0.001,
+      "Amount": 67
+    },
+    {
+      "IsMultiRound": false,
+      "EndRound": 10,
+      "StartRound": 71,
+      "Spacing": 0.035,
+      "Amount": 250
+    },
+    {
+      "IsMultiRound": false,
+      "EndRound": 10,
+      "StartRound": 83,
+      "Spacing": 0.008,
+      "Amount": 200
+    },
+    {
+      "IsMultiRound": false,
+      "EndRound": 10,
+      "StartRound": 83,
+      "Spacing": 0.32,
+      "Amount": 80
+    }
+  ],
+  "BloonBehaviors": [
+    {
+      "$type": "BloonFactoryMod.API.Serializables.Behaviors.Actions.DamageReductionSerializable, BloonFactoryMod",
+      "DamageReduction": -6,
+      "Name": "Damage Reduction",
+      "GUID": "ce661777-2f8f-4c71-b76a-eca0cc6bdd28"
+    }
+  ],
+  "Decal1": {
+    "R": 255,
+    "G": 255,
+    "B": 255,
+    "Type": 0,
+    "OffsetX": 0,
+    "OffsetY": 0
+  },
+  "Decal2": {
+    "R": 255,
+    "G": 255,
+    "B": 255,
+    "Type": 0,
+    "OffsetX": 0,
+    "OffsetY": 0
+  },
+  "Size": 1.0,
+  "IsCustomDisplay": false,
+  "CustomDisplay": null
+}

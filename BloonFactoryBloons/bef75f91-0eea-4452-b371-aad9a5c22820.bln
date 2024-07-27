@@ -1,0 +1,93 @@
+{
+  "ModVersion": "1.1.0",
+  "Name": "ZombieIJKX",
+  "Speed": 45.0,
+  "Health": 3,
+  "Damage": 26,
+  "R": 100,
+  "G": 169,
+  "B": 125,
+  "CashDropped": 0,
+  "GUID": "bef75f91-0eea-4452-b371-aad9a5c22820",
+  "IsCamo": false,
+  "IsLead": false,
+  "IsPurple": false,
+  "IsBlack": false,
+  "IsWhite": false,
+  "IsFrozen": false,
+  "IsRegrow": false,
+  "RegrowRate": 3.0,
+  "BloonChildren": [
+    {
+      "BloonName": "NecroIJKX:74f6bf72-68e4-4142-8d85-5a4eabb6c894",
+      "Amount": 1
+    }
+  ],
+  "BloonRounds": [
+    {
+      "IsMultiRound": false,
+      "EndRound": 10,
+      "StartRound": 32,
+      "Spacing": 1.5,
+      "Amount": 12
+    },
+    {
+      "IsMultiRound": false,
+      "EndRound": 10,
+      "StartRound": 43,
+      "Spacing": 0.125,
+      "Amount": 33
+    },
+    {
+      "IsMultiRound": false,
+      "EndRound": 10,
+      "StartRound": 57,
+      "Spacing": 0.04,
+      "Amount": 5
+    },
+    {
+      "IsMultiRound": false,
+      "EndRound": 10,
+      "StartRound": 38,
+      "Spacing": 0.5,
+      "Amount": 14
+    }
+  ],
+  "BloonBehaviors": [
+    {
+      "$type": "BloonFactoryMod.API.Serializables.Behaviors.Triggers.OnDamagedTriggerSerializable, BloonFactoryMod",
+      "Cooldown": 0.6,
+      "ActionIDs": [
+        "ca144bb8-6a46-40e3-bb48-73d8143eb4a5"
+      ],
+      "Name": "On Damaged Trigger",
+      "GUID": "bfb569ea-1f13-4eba-9caa-45eb660d0e4d"
+    },
+    {
+      "$type": "BloonFactoryMod.API.Serializables.Behaviors.Actions.MoveActionSerializable, BloonFactoryMod",
+      "Time": 0.6,
+      "Distance": 45,
+      "Name": "Move Action",
+      "GUID": "ca144bb8-6a46-40e3-bb48-73d8143eb4a5"
+    }
+  ],
+  "Decal1": {
+    "R": 128,
+    "G": 154,
+    "B": 129,
+    "Type": 2,
+    "OffsetX": 0,
+    "OffsetY": 0
+  },
+  "Decal2": {
+    "R": 255,
+    "G": 255,
+    "B": 255,
+    "Type": 0,
+    "OffsetX": 0,
+    "OffsetY": 0
+  },
+  "Size": 0.8,
+  "IsCustomDisplay": false,
+  "CustomDisplay": null
+}

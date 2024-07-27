@@ -1,0 +1,379 @@
+{
+  "ModVersion": "1.1.0",
+  "Name": "PatchworkCoreIJKX",
+  "Speed": 65.0,
+  "Health": 1,
+  "Damage": 1,
+  "R": 141,
+  "G": 159,
+  "B": 128,
+  "CashDropped": 0,
+  "GUID": "eacfac6e-2897-4d15-92d5-4d89776bc6e2",
+  "IsCamo": false,
+  "IsLead": false,
+  "IsPurple": false,
+  "IsBlack": true,
+  "IsWhite": true,
+  "IsFrozen": false,
+  "IsRegrow": false,
+  "RegrowRate": 3.0,
+  "BloonChildren": [],
+  "BloonRounds": [
+    {
+      "IsMultiRound": false,
+      "EndRound": 10,
+      "StartRound": 9,
+      "Spacing": 2.0,
+      "Amount": 2
+    },
+    {
+      "IsMultiRound": false,
+      "EndRound": 10,
+      "StartRound": 9,
+      "Spacing": 2.0,
+      "Amount": 2
+    },
+    {
+      "IsMultiRound": false,
+      "EndRound": 10,
+      "StartRound": 9,
+      "Spacing": 2.0,
+      "Amount": 2
+    },
+    {
+      "IsMultiRound": false,
+      "EndRound": 10,
+      "StartRound": 9,
+      "Spacing": 2.0,
+      "Amount": 2
+    },
+    {
+      "IsMultiRound": false,
+      "EndRound": 10,
+      "StartRound": 9,
+      "Spacing": 2.0,
+      "Amount": 2
+    },
+    {
+      "IsMultiRound": false,
+      "EndRound": 10,
+      "StartRound": 9,
+      "Spacing": 2.0,
+      "Amount": 2
+    },
+    {
+      "IsMultiRound": false,
+      "EndRound": 10,
+      "StartRound": 9,
+      "Spacing": 2.0,
+      "Amount": 2
+    },
+    {
+      "IsMultiRound": false,
+      "EndRound": 10,
+      "StartRound": 9,
+      "Spacing": 2.0,
+      "Amount": 2
+    },
+    {
+      "IsMultiRound": false,
+      "EndRound": 10,
+      "StartRound": 9,
+      "Spacing": 2.0,
+      "Amount": 2
+    },
+    {
+      "IsMultiRound": false,
+      "EndRound": 10,
+      "StartRound": 9,
+      "Spacing": 2.0,
+      "Amount": 2
+    },
+    {
+      "IsMultiRound": false,
+      "EndRound": 10,
+      "StartRound": 12,
+      "Spacing": 2.0,
+      "Amount": 10
+    },
+    {
+      "IsMultiRound": false,
+      "EndRound": 10,
+      "StartRound": 12,
+      "Spacing": 2.0,
+      "Amount": 10
+    },
+    {
+      "IsMultiRound": false,
+      "EndRound": 10,
+      "StartRound": 12,
+      "Spacing": 2.0,
+      "Amount": 10
+    },
+    {
+      "IsMultiRound": false,
+      "EndRound": 10,
+      "StartRound": 12,
+      "Spacing": 2.0,
+      "Amount": 10
+    },
+    {
+      "IsMultiRound": false,
+      "EndRound": 10,
+      "StartRound": 12,
+      "Spacing": 2.0,
+      "Amount": 10
+    },
+    {
+      "IsMultiRound": false,
+      "EndRound": 10,
+      "StartRound": 12,
+      "Spacing": 2.0,
+      "Amount": 10
+    },
+    {
+      "IsMultiRound": false,
+      "EndRound": 10,
+      "StartRound": 12,
+      "Spacing": 2.0,
+      "Amount": 10
+    },
+    {
+      "IsMultiRound": false,
+      "EndRound": 10,
+      "StartRound": 12,
+      "Spacing": 2.0,
+      "Amount": 10
+    },
+    {
+      "IsMultiRound": false,
+      "EndRound": 10,
+      "StartRound": 12,
+      "Spacing": 2.0,
+      "Amount": 10
+    },
+    {
+      "IsMultiRound": false,
+      "EndRound": 10,
+      "StartRound": 12,
+      "Spacing": 2.0,
+      "Amount": 10
+    },
+    {
+      "IsMultiRound": false,
+      "EndRound": 10,
+      "StartRound": 23,
+      "Spacing": 0.25,
+      "Amount": 7
+    },
+    {
+      "IsMultiRound": false,
+      "EndRound": 10,
+      "StartRound": 23,
+      "Spacing": 0.25,
+      "Amount": 7
+    },
+    {
+      "IsMultiRound": false,
+      "EndRound": 10,
+      "StartRound": 23,
+      "Spacing": 0.25,
+      "Amount": 7
+    },
+    {
+      "IsMultiRound": false,
+      "EndRound": 10,
+      "StartRound": 23,
+      "Spacing": 0.25,
+      "Amount": 7
+    },
+    {
+      "IsMultiRound": false,
+      "EndRound": 10,
+      "StartRound": 23,
+      "Spacing": 0.25,
+      "Amount": 7
+    },
+    {
+      "IsMultiRound": false,
+      "EndRound": 10,
+      "StartRound": 23,
+      "Spacing": 0.25,
+      "Amount": 7
+    },
+    {
+      "IsMultiRound": false,
+      "EndRound": 10,
+      "StartRound": 23,
+      "Spacing": 0.25,
+      "Amount": 7
+    },
+    {
+      "IsMultiRound": false,
+      "EndRound": 10,
+      "StartRound": 23,
+      "Spacing": 0.25,
+      "Amount": 7
+    },
+    {
+      "IsMultiRound": false,
+      "EndRound": 10,
+      "StartRound": 23,
+      "Spacing": 0.25,
+      "Amount": 7
+    },
+    {
+      "IsMultiRound": false,
+      "EndRound": 10,
+      "StartRound": 23,
+      "Spacing": 0.25,
+      "Amount": 7
+    },
+    {
+      "IsMultiRound": true,
+      "EndRound": 38,
+      "StartRound": 36,
+      "Spacing": 1.0,
+      "Amount": 9
+    },
+    {
+      "IsMultiRound": true,
+      "EndRound": 38,
+      "StartRound": 36,
+      "Spacing": 1.0,
+      "Amount": 9
+    },
+    {
+      "IsMultiRound": true,
+      "EndRound": 38,
+      "StartRound": 36,
+      "Spacing": 1.0,
+      "Amount": 9
+    },
+    {
+      "IsMultiRound": true,
+      "EndRound": 38,
+      "StartRound": 36,
+      "Spacing": 1.0,
+      "Amount": 9
+    },
+    {
+      "IsMultiRound": true,
+      "EndRound": 38,
+      "StartRound": 36,
+      "Spacing": 1.0,
+      "Amount": 9
+    },
+    {
+      "IsMultiRound": true,
+      "EndRound": 38,
+      "StartRound": 36,
+      "Spacing": 1.0,
+      "Amount": 9
+    },
+    {
+      "IsMultiRound": true,
+      "EndRound": 38,
+      "StartRound": 36,
+      "Spacing": 1.0,
+      "Amount": 9
+    },
+    {
+      "IsMultiRound": true,
+      "EndRound": 38,
+      "StartRound": 36,
+      "Spacing": 1.0,
+      "Amount": 9
+    },
+    {
+      "IsMultiRound": true,
+      "EndRound": 38,
+      "StartRound": 36,
+      "Spacing": 1.0,
+      "Amount": 9
+    },
+    {
+      "IsMultiRound": true,
+      "EndRound": 38,
+      "StartRound": 36,
+      "Spacing": 1.0,
+      "Amount": 9
+    },
+    {
+      "IsMultiRound": false,
+      "EndRound": 10,
+      "StartRound": 9,
+      "Spacing": 2.0,
+      "Amount": 2
+    },
+    {
+      "IsMultiRound": false,
+      "EndRound": 10,
+      "StartRound": 9,
+      "Spacing": 2.0,
+      "Amount": 2
+    },
+    {
+      "IsMultiRound": false,
+      "EndRound": 10,
+      "StartRound": 12,
+      "Spacing": 2.0,
+      "Amount": 10
+    },
+    {
+      "IsMultiRound": false,
+      "EndRound": 10,
+      "StartRound": 12,
+      "Spacing": 2.0,
+      "Amount": 10
+    },
+    {
+      "IsMultiRound": false,
+      "EndRound": 10,
+      "StartRound": 23,
+      "Spacing": 0.25,
+      "Amount": 7
+    },
+    {
+      "IsMultiRound": false,
+      "EndRound": 10,
+      "StartRound": 23,
+      "Spacing": 0.25,
+      "Amount": 7
+    },
+    {
+      "IsMultiRound": true,
+      "EndRound": 38,
+      "StartRound": 36,
+      "Spacing": 1.0,
+      "Amount": 9
+    },
+    {
+      "IsMultiRound": true,
+      "EndRound": 38,
+      "StartRound": 36,
+      "Spacing": 1.0,
+      "Amount": 9
+    }
+  ],
+  "BloonBehaviors": [],
+  "Decal1": {
+    "R": 172,
+    "G": 125,
+    "B": 146,
+    "Type": 2,
+    "OffsetX": 0,
+    "OffsetY": 0
+  },
+  "Decal2": {
+    "R": 105,
+    "G": 146,
+    "B": 211,
+    "Type": 1,
+    "OffsetX": 0,
+    "OffsetY": 0
+  },
+  "Size": 1.1,
+  "IsCustomDisplay": false,
+  "CustomDisplay": null
+}

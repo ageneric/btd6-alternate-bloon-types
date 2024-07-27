@@ -1,0 +1,86 @@
+{
+  "ModVersion": "1.1.0",
+  "Name": "ZombieFortIJKX",
+  "Speed": 45.0,
+  "Health": 13,
+  "Damage": 25,
+  "R": 152,
+  "G": 140,
+  "B": 190,
+  "CashDropped": 0,
+  "GUID": "f01474d9-73e4-4124-8d1b-092df563f4c7",
+  "IsCamo": false,
+  "IsLead": false,
+  "IsPurple": false,
+  "IsBlack": false,
+  "IsWhite": false,
+  "IsFrozen": false,
+  "IsRegrow": false,
+  "RegrowRate": 3.0,
+  "BloonChildren": [
+    {
+      "BloonName": "GhostFortIJKX:a5ebf71f-f3e2-42c0-9e8c-08f2fa27d48a",
+      "Amount": 1
+    }
+  ],
+  "BloonRounds": [
+    {
+      "IsMultiRound": false,
+      "EndRound": 10,
+      "StartRound": 57,
+      "Spacing": 0.25,
+      "Amount": 40
+    },
+    {
+      "IsMultiRound": false,
+      "EndRound": 10,
+      "StartRound": 68,
+      "Spacing": 0.025,
+      "Amount": 128
+    },
+    {
+      "IsMultiRound": false,
+      "EndRound": 10,
+      "StartRound": 50,
+      "Spacing": 0.375,
+      "Amount": 20
+    }
+  ],
+  "BloonBehaviors": [
+    {
+      "$type": "BloonFactoryMod.API.Serializables.Behaviors.Triggers.OnDamagedTriggerSerializable, BloonFactoryMod",
+      "Cooldown": 0.4,
+      "ActionIDs": [
+        "62e1e1ef-6b0c-4e3d-b192-4e3181b7c9df"
+      ],
+      "Name": "On Damaged Trigger",
+      "GUID": "ae028622-3adf-4663-8c10-9b0c112f4c18"
+    },
+    {
+      "$type": "BloonFactoryMod.API.Serializables.Behaviors.Actions.MoveActionSerializable, BloonFactoryMod",
+      "Time": 0.4,
+      "Distance": 45,
+      "Name": "Move Action",
+      "GUID": "62e1e1ef-6b0c-4e3d-b192-4e3181b7c9df"
+    }
+  ],
+  "Decal1": {
+    "R": 129,
+    "G": 157,
+    "B": 128,
+    "Type": 2,
+    "OffsetX": 0,
+    "OffsetY": 0
+  },
+  "Decal2": {
+    "R": 255,
+    "G": 255,
+    "B": 255,
+    "Type": 0,
+    "OffsetX": 0,
+    "OffsetY": 0
+  },
+  "Size": 0.8,
+  "IsCustomDisplay": false,
+  "CustomDisplay": null
+}

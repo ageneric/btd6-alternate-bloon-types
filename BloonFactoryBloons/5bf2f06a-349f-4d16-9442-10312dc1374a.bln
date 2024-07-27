@@ -1,0 +1,121 @@
+{
+  "ModVersion": "1.1.0",
+  "Name": "ElectricIJKX",
+  "Speed": 70.0,
+  "Health": 1,
+  "Damage": 11,
+  "R": 240,
+  "G": 147,
+  "B": 121,
+  "CashDropped": 1,
+  "GUID": "5bf2f06a-349f-4d16-9442-10312dc1374a",
+  "IsCamo": false,
+  "IsLead": false,
+  "IsPurple": false,
+  "IsBlack": false,
+  "IsWhite": false,
+  "IsFrozen": false,
+  "IsRegrow": false,
+  "RegrowRate": 3.0,
+  "BloonChildren": [
+    {
+      "BloonName": "Pink",
+      "Amount": 2
+    }
+  ],
+  "BloonRounds": [
+    {
+      "IsMultiRound": false,
+      "EndRound": 10,
+      "StartRound": 13,
+      "Spacing": 10.0,
+      "Amount": 1
+    },
+    {
+      "IsMultiRound": false,
+      "EndRound": 10,
+      "StartRound": 18,
+      "Spacing": 6.0,
+      "Amount": 5
+    },
+    {
+      "IsMultiRound": true,
+      "EndRound": 30,
+      "StartRound": 29,
+      "Spacing": 1.667,
+      "Amount": 9
+    },
+    {
+      "IsMultiRound": false,
+      "EndRound": 10,
+      "StartRound": 36,
+      "Spacing": 10.0,
+      "Amount": 1
+    },
+    {
+      "IsMultiRound": false,
+      "EndRound": 10,
+      "StartRound": 36,
+      "Spacing": 13.0,
+      "Amount": 1
+    },
+    {
+      "IsMultiRound": false,
+      "EndRound": 10,
+      "StartRound": 55,
+      "Spacing": 2.25,
+      "Amount": 10
+    },
+    {
+      "IsMultiRound": false,
+      "EndRound": 10,
+      "StartRound": 43,
+      "Spacing": 1.0,
+      "Amount": 4
+    },
+    {
+      "IsMultiRound": false,
+      "EndRound": 10,
+      "StartRound": 49,
+      "Spacing": 0.25,
+      "Amount": 18
+    }
+  ],
+  "BloonBehaviors": [
+    {
+      "$type": "BloonFactoryMod.API.Serializables.Behaviors.Actions.StunTowersActionSerializable, BloonFactoryMod",
+      "StunDuration": 4.0,
+      "Radius": 50.0,
+      "Name": "Stun Towers Action",
+      "GUID": "4b7c46ae-4f97-4398-a3d8-3065bedcf5f6"
+    },
+    {
+      "$type": "BloonFactoryMod.API.Serializables.Behaviors.Triggers.HealthPercentTriggerSerializable, BloonFactoryMod",
+      "Percent": 50.0,
+      "ActionIDs": [
+        "4b7c46ae-4f97-4398-a3d8-3065bedcf5f6"
+      ],
+      "Name": "Health Percent Trigger",
+      "GUID": "471b93e2-e077-4196-80d4-8063a1cdd0fb"
+    }
+  ],
+  "Decal1": {
+    "R": 228,
+    "G": 192,
+    "B": 161,
+    "Type": 2,
+    "OffsetX": 0,
+    "OffsetY": 0
+  },
+  "Decal2": {
+    "R": 255,
+    "G": 255,
+    "B": 255,
+    "Type": 0,
+    "OffsetX": 0,
+    "OffsetY": 0
+  },
+  "Size": 0.7,
+  "IsCustomDisplay": false,
+  "CustomDisplay": null
+}

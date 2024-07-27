@@ -1,0 +1,168 @@
+{
+  "ModVersion": "1.1.0",
+  "Name": "VortexIJKX",
+  "Speed": 55.0,
+  "Health": 80,
+  "Damage": 333,
+  "R": 158,
+  "G": 255,
+  "B": 255,
+  "CashDropped": 1,
+  "GUID": "1b8111e0-5bd8-4ed2-bafc-f278740e38c9",
+  "IsCamo": false,
+  "IsLead": false,
+  "IsPurple": true,
+  "IsBlack": false,
+  "IsWhite": true,
+  "IsFrozen": false,
+  "IsRegrow": false,
+  "RegrowRate": 3.0,
+  "BloonChildren": [
+    {
+      "BloonName": "Ceramic",
+      "Amount": 2
+    },
+    {
+      "BloonName": "GlassIJKX:f0c1b822-eb37-4d9a-92de-a1586500cb0f",
+      "Amount": 2
+    }
+  ],
+  "BloonRounds": [
+    {
+      "IsMultiRound": false,
+      "EndRound": 10,
+      "StartRound": 70,
+      "Spacing": 35.0,
+      "Amount": 1
+    },
+    {
+      "IsMultiRound": false,
+      "EndRound": 10,
+      "StartRound": 70,
+      "Spacing": 10.0,
+      "Amount": 4
+    },
+    {
+      "IsMultiRound": false,
+      "EndRound": 10,
+      "StartRound": 66,
+      "Spacing": 35.0,
+      "Amount": 1
+    },
+    {
+      "IsMultiRound": false,
+      "EndRound": 10,
+      "StartRound": 73,
+      "Spacing": 0.0,
+      "Amount": 1
+    },
+    {
+      "IsMultiRound": false,
+      "EndRound": 10,
+      "StartRound": 73,
+      "Spacing": 24.0,
+      "Amount": 1
+    },
+    {
+      "IsMultiRound": false,
+      "EndRound": 10,
+      "StartRound": 73,
+      "Spacing": 26.0,
+      "Amount": 1
+    },
+    {
+      "IsMultiRound": false,
+      "EndRound": 10,
+      "StartRound": 76,
+      "Spacing": 0.0,
+      "Amount": 1
+    },
+    {
+      "IsMultiRound": false,
+      "EndRound": 10,
+      "StartRound": 77,
+      "Spacing": 5.0,
+      "Amount": 10
+    },
+    {
+      "IsMultiRound": true,
+      "EndRound": 97,
+      "StartRound": 95,
+      "Spacing": 5.0,
+      "Amount": 5
+    },
+    {
+      "IsMultiRound": false,
+      "EndRound": 10,
+      "StartRound": 73,
+      "Spacing": 20.0,
+      "Amount": 1
+    },
+    {
+      "IsMultiRound": false,
+      "EndRound": 10,
+      "StartRound": 73,
+      "Spacing": 22.0,
+      "Amount": 1
+    },
+    {
+      "IsMultiRound": false,
+      "EndRound": 10,
+      "StartRound": 86,
+      "Spacing": 0.55,
+      "Amount": 25
+    }
+  ],
+  "BloonBehaviors": [
+    {
+      "$type": "BloonFactoryMod.API.Serializables.Behaviors.Actions.BuffBloonSpeedSerializable, BloonFactoryMod",
+      "DebuffRadius": 15.0,
+      "Multiplier": 1.5,
+      "Name": "Buff Bloon Speed",
+      "GUID": "30622360-3007-47a7-ad6c-22fe254f2bca"
+    },
+    {
+      "$type": "BloonFactoryMod.API.Serializables.Behaviors.Triggers.HealthPercentTriggerSerializable, BloonFactoryMod",
+      "Percent": 50.0,
+      "ActionIDs": [
+        "d1c8474a-b73a-4250-bbf4-5adebac2b7c3",
+        "760db437-b7d6-44a0-8f33-e394735b2aa2"
+      ],
+      "Name": "Health Percent Trigger",
+      "GUID": "19b5e230-a417-4b9a-8641-70050b7b7961"
+    },
+    {
+      "$type": "BloonFactoryMod.API.Serializables.Behaviors.Actions.MoveActionSerializable, BloonFactoryMod",
+      "Time": 0.6,
+      "Distance": -50,
+      "Name": "Move Action",
+      "GUID": "d1c8474a-b73a-4250-bbf4-5adebac2b7c3"
+    },
+    {
+      "$type": "BloonFactoryMod.API.Serializables.Behaviors.Actions.StunTowersActionSerializable, BloonFactoryMod",
+      "StunDuration": 4.0,
+      "Radius": 60.0,
+      "Name": "Stun Towers Action",
+      "GUID": "760db437-b7d6-44a0-8f33-e394735b2aa2"
+    }
+  ],
+  "Decal1": {
+    "R": 43,
+    "G": 112,
+    "B": 255,
+    "Type": 1,
+    "OffsetX": 0,
+    "OffsetY": 0
+  },
+  "Decal2": {
+    "R": 255,
+    "G": 255,
+    "B": 255,
+    "Type": 0,
+    "OffsetX": 0,
+    "OffsetY": 0
+  },
+  "Size": 1.1,
+  "IsCustomDisplay": false,
+  "CustomDisplay": null
+}
